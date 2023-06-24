@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import ProjectList from './ProjectList';
 import Toolbar from './Toolbar';
 
@@ -76,8 +76,13 @@ function Portfolio() {
 
     ]
 
+    
 
 const [allFilters, setFilter] = useState([])
+
+useEffect(() => {
+     setFilter(photos);
+}, [])
 
 const onSelectFilter = (selected) => {
 const select = photos.filter((item)=>

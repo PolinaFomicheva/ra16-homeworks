@@ -22,7 +22,7 @@ code {
   background: #f2f2f2;
   border-radius: 50px;
   padding: 10px 20px;
-  margin-bottom: 25px;
+  margin-top: 10px;
   margin-right: 15px;
   cursor: pointer;
   border: 1px solid transparent;
@@ -40,12 +40,11 @@ code {
 }
 
 .projects {
-  width: 20%;
-  margin: auto;
-  margin: 10px;
+  margin: 15px;
 }
 
 .projectlist {
+  padding: 0;
   flex-wrap: wrap;
   display: flex;
   width: 100%;
