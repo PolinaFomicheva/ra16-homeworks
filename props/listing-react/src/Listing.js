@@ -4,7 +4,7 @@ import React from "react";
 function Listing({ items }) {
 
 
-    const listitem  =  items.state !== "removed" ? (
+    const listitem  =  items.state != "removed" ? (
         <div class="item">
           <div class="item-image">
             <a href={items.url}>
