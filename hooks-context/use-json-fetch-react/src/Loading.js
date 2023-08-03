@@ -1,6 +1,6 @@
 import classNames from 'classnames';
 import React from 'react';
-import useJsonFetch from './hooks/useJsonFetch';
+import useJsonFetch from './useJsonFetch';
 
 function Loading() {
   const [data, loading, error] = useJsonFetch(
